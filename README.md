@@ -6,7 +6,7 @@ All games run in the terminal — no graphics, no fancy UI — just good old con
 
 ---
 
-## 🕹️ Included Games
+##  Included Games
 
 1. **Tic Tac Toe (Basics)**  
    A classic 2-player version of the game. Take turns and battle it out — Xs vs Os.
@@ -27,17 +27,14 @@ All games run in the terminal — no graphics, no fancy UI — just good old con
 
 ---
 
-## 💻 How to Play
+## How to Play
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/your-username/beginner-level-projects.git
-   cd "Select the game repo"
+   git clone https://github.com/lokesha01hp/Beginner_Level_Project-python-.git
+   cd Select_the_game_repo
    ```
-
-````
-
-2. Run any game using Python:
-```bash
-    python main.py
-````
+2. Run the script:
+   ```bash
+   python main.py
+   ```
