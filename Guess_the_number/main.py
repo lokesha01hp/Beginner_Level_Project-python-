@@ -43,7 +43,7 @@ print(" Welcome to the Number Guessing Game!")
 print("Choose your mode:")
 
 while True:
-        user_input = int(input("1️⃣  You guess the computer's number or 2️⃣  The computer guesses your number :"))
+        user_input = int(input("1️⃣ You guess the computer's number or 2️⃣ The computer guesses your number :"))
         try:
             if user_input == 1:
                 guess_the_number(100)
