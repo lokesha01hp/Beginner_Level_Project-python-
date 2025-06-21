@@ -5,7 +5,7 @@ def playgame():
         user=input("Enter your choice, Rock(r) or Paper(p) or Scissor(s) or (c) to quit :").upper()
         computer=random.choice(l)
         if user =="C":
-              print("Not enjoying the Game???")
+              print("Thanks for playing?")
               return -1
         if user == computer:
             print("Draw match")

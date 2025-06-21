@@ -33,7 +33,7 @@ def check_win(xstate,zstate):
 if __name__ == "__main__":
     xstate= [0,0,0,0,0,0,0,0,0]
     zstate= [0,0,0,0,0,0,0,0,0]
-    turn=input("Want X or O Type what's your pawn :").upper()
+    turn=input("Want X or O, Type the Pawn u needed :").upper()
     if turn == 'X':
         turn = 1
     else:

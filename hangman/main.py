@@ -44,7 +44,7 @@ def hangman():
     if lives == 0:
         print("You died, Try again,The word was",word)
     else:
-        print("You guessed the word",word)
+        print("Correct!!, You guessed the word",word)
 
 
 if __name__ == '__main__':

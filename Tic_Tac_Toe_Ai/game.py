@@ -91,7 +91,7 @@ def play(game,x_player,o_player, print_game=True):
 
             if game.current_winner:
                 if print_game:
-                    print(f"🎉 Player {letter} takes the win! Game over.")
+                    print(f"Player {letter} takes the win! Game over.")
                 return letter
             #to alter letter
             #letter = 'O' if letter == 'X' else 'X'
@@ -110,10 +110,10 @@ def play(game,x_player,o_player, print_game=True):
 
 
 if __name__ == "__main__":
-    print("🎮 Welcome to the Ultimate Tic Tac Toe Showdown! 🧠")
-    print("1️⃣  Human vs Human ")
-    print("2️⃣  Human vs Smart AI (Warning: Brainpower required)")
-    print("3️⃣  Human vs Random Bot (Expect chaos)")
+    print("Welcome to the Ultimate Tic Tac Toe Showdown!")
+    print("1. Human vs Human ")
+    print("2. Human vs Smart AI (Warning: Brainpower required)")
+    print("3. Human vs Random Bot (Expect chaos)")
     choice = input("Choose your battleground :")
 
     if choice == "1":
